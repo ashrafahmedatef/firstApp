@@ -1,0 +1,24 @@
+{
+    "AS_Form_2939bb27650c462c8f20c326bc9f8af1": {
+        "id": "AS_Form_2939bb27650c462c8f20c326bc9f8af1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "form1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a21047cd4cd5439caf5013fcc4ca223d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b92afb0ceeba4e8690723235af5ea3fb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "form1.headers[0].title1.text = \"Hello World\";",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}
