@@ -4,6 +4,6 @@
  * @function
  *
  */
-function getAllCatego(){
-  client = new kony.sdk();
+function helloWorld(){
+  alert("Hello World");
 }
